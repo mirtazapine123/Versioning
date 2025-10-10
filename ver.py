@@ -93,7 +93,8 @@ class MachineTrackerApp:
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         self.tab_insert.columnconfigure(0, weight=1)
         self.tab_insert.rowconfigure(0, weight=1)
-        
+        #test
+
         # Frame sinistro: campi input
         left_frame = ttk.LabelFrame(main_frame, text="Dati Intervento", padding="10")
         left_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S), padx=(0, 5))
